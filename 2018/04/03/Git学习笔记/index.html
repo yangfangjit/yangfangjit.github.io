@@ -79,12 +79,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Francis&#39;s blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="如何来解释版本管理的概念呢？ 栗子1，我相信大部分人是写过毕业论文的，论文写作是一个较为漫长的过程：创建文档V0版、写点东西、再写点东西、画个图、再写点、删删减减、哎呀备个份V1版、继续写、给老师看看V2版、老师批注一个字——改、改一改V3版、再该老师看看、接着改… 假设我们没有备份，但是我们想看看或者改回原来的版本时，我们能怎么做？ 除了展开想象的翅膀，别无他法。 栗子2，项目经理带着我们三个开">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git学习笔记">
+<meta property="og:url" content="http://yoursite.com/2018/04/03/Git学习笔记/index.html">
 <meta property="og:site_name" content="Francis&#39;s blog">
+<meta property="og:description" content="如何来解释版本管理的概念呢？ 栗子1，我相信大部分人是写过毕业论文的，论文写作是一个较为漫长的过程：创建文档V0版、写点东西、再写点东西、画个图、再写点、删删减减、哎呀备个份V1版、继续写、给老师看看V2版、老师批注一个字——改、改一改V3版、再该老师看看、接着改… 假设我们没有备份，但是我们想看看或者改回原来的版本时，我们能怎么做？ 除了展开想象的翅膀，别无他法。 栗子2，项目经理带着我们三个开">
+<meta property="og:updated_time" content="2018-04-03T03:09:02.046Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Francis&#39;s blog">
+<meta name="twitter:title" content="Git学习笔记">
+<meta name="twitter:description" content="如何来解释版本管理的概念呢？ 栗子1，我相信大部分人是写过毕业论文的，论文写作是一个较为漫长的过程：创建文档V0版、写点东西、再写点东西、画个图、再写点、删删减减、哎呀备个份V1版、继续写、给老师看看V2版、老师批注一个字——改、改一改V3版、再该老师看看、接着改… 假设我们没有备份，但是我们想看看或者改回原来的版本时，我们能怎么做？ 除了展开想象的翅膀，别无他法。 栗子2，项目经理带着我们三个开">
 
 
 
@@ -114,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/03/Git学习笔记/"/>
 
 
 
 
 
-  <title>Francis's blog</title>
+  <title>Git学习笔记 | Francis's blog</title>
   
 
 
@@ -139,8 +143,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,9 +216,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -245,9 +248,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/03/Git学习笔记/" itemprop="url">Git学习笔记</a></h1>
+          <h1 class="post-title" itemprop="name headline">Git学习笔记</h1>
         
 
         <div class="post-meta">
@@ -297,9 +298,7 @@
       
 
       
-        
-          
-            <p>如何来解释版本管理的概念呢？</p>
+        <p>如何来解释版本管理的概念呢？</p>
 <p>栗子1，我相信大部分人是写过毕业论文的，论文写作是一个较为漫长的过程：创建文档V0版、写点东西、再写点东西、画个图、再写点、删删减减、哎呀备个份V1版、继续写、给老师看看V2版、老师批注一个字——改、改一改V3版、再该老师看看、接着改…</p>
 <p>假设我们没有备份，但是我们想看看或者改回原来的版本时，我们能怎么做？</p>
 <p>除了展开想象的翅膀，别无他法。</p>
@@ -329,8 +328,6 @@
 <h3 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h3><p><code>git branch -d branch_name</code></p>
 <h3 id="推送分支"><a href="#推送分支" class="headerlink" title="推送分支"></a>推送分支</h3><p><code>git push origin local_branch:remote_branch</code> 将本地分支local_branch推送到远程，如果remote_branch分支不存在则会创建remote_branch分支</p>
 
-          
-        
       
     </div>
     
@@ -347,140 +344,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/19/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Francis Yang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Francis's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/03/19/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-19T09:40:52+08:00">
-                2018-03-19
-              </time>
+              <a href="/2018/03/19/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -490,10 +375,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -501,6 +387,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -521,8 +411,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -564,6 +463,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git的三种状态"><span class="nav-number">1.</span> <span class="nav-text">Git的三种状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从远程获取代码"><span class="nav-number">2.</span> <span class="nav-text">从远程获取代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支"><span class="nav-number">3.</span> <span class="nav-text">分支</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建和切换分支"><span class="nav-number">3.1.</span> <span class="nav-text">创建和切换分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#合并分支"><span class="nav-number">3.2.</span> <span class="nav-text">合并分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除分支"><span class="nav-number">3.3.</span> <span class="nav-text">删除分支</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推送分支"><span class="nav-number">3.4.</span> <span class="nav-text">推送分支</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -697,6 +612,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
